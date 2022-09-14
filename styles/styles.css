@@ -1,0 +1,742 @@
+
+
+body {
+   color: #E5E5E5;
+   font-family: Raleway;
+   margin: 0;
+   font-style: normal;
+    font-weight: normal;
+}
+.container {
+    display: flex;
+    margin: 0 auto;
+    width: 100%;
+    padding: 0 0;
+    box-sizing: border-box;
+    background: #000000 url("/imeges/fon1.jpg") no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover; 
+ }
+header {
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+    align-items: center; 
+    padding-top: 20px;
+}
+.container2 {
+    display: flex;
+    align-items: center; 
+    align-self: center;
+}
+.logo {
+    width: 160px;
+    max-width: 250px;
+    object-fit: contain;
+    
+}
+.first-text{
+    margin-left: 50px;
+    font-size: 18px;
+    line-height: 150%;
+    letter-spacing: 0.14em;
+}
+.contacts {
+   margin-left: auto;   
+}
+.icon-tel,
+.icon-insta {
+    width: 25px;
+    height: 25px;
+    filter: invert(95%);
+}
+.icon-add{
+    width: 27px;
+    height: 27px;
+    filter: invert(100%);
+}
+.insta:hover, .tel:hover, .address:hover, .nick:hover {
+    font-weight: bold;
+    text-decoration: underline;
+}
+.tel,
+.insta,
+.address {
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 167.5%;
+    letter-spacing: 0.1em;
+    color: #E5E5E5;  
+}
+.address {
+    margin-left: 10px;
+    width: 150px;
+}
+.main-text {
+    box-sizing: border-box;
+    padding: 40px 60px;
+    margin-top: 40px;
+    width: 630px;
+    height: 350px;
+    background: rgba(0, 0, 0, 0.58);
+}
+.main-text-1 {
+    float: left;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 167.5%;
+    letter-spacing: 0.27em;
+    text-transform: uppercase;
+}
+.main-text-2{
+    float: right;
+}
+.main-text-2,
+.main-text-3{
+    letter-spacing: 0.1em;
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 167.5%;   
+}
+.main-text-3{
+    float: left;
+    padding-top: 20px;
+}
+.btn {
+    display: block;
+    float: right;
+    margin-top: 40px; 
+    width: 180px;
+    height: 50px;
+    background: #C4C4C4;
+    cursor: pointer;
+    transition: 0.3s;
+    color: #000000;
+}
+.btn:hover{
+    background: #000000;
+    border: #C4C4C4;
+    border-style: solid;
+    color: #C4C4C4;
+    transition: 0.3s;
+}
+.btn-a:hover{
+    color: #C4C4C4;
+    transition: 0.3s;
+}
+.btn-a {
+    display: block;
+    padding: 12px 30px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 150%;
+    letter-spacing: 0.15em;
+    color: #000000;
+    transition: 0.3s;  
+}
+
+.about-me {
+    display: inline-block;
+    float: right;
+    width: 328px;
+    height: auto;
+    margin-top: -200px;
+    border: 4px solid #C4C4C4;
+    font-style: italic;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 200%;
+    letter-spacing: 0.15em;
+    transition: 0.3s;
+}
+.about-me:hover, .text-box:hover{
+    border-radius: 40px;
+    transition: 0.5s;
+}
+ .my-photo {
+    object-fit: cover;
+    float: right;
+    margin-top: 10px;
+    margin-right: 10px;
+    width: 83.08px;
+    height: 83.08px;
+    border-radius: 90px;
+    }
+ .sign {
+    font-size: 48px;
+    font-family: Marcellus;
+ }
+.about-me-text {
+    padding-left: 20px;
+}
+.name {
+   float: right;
+   padding-right: 10px;
+}
+.down {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    padding-top: 100px;
+    align-items: center;
+    transition: 0.3s;
+}
+.to-down {
+    width: 150px;
+    height: 30px;
+    font-style: thin;
+    font-weight: lighter;
+    font-size: 16px;
+    line-height: 167.5%;
+    letter-spacing: 0.3em;
+    color: #E5E5E5;
+}
+.arow {
+    width: 50px;
+    height: 50px;
+    filter: invert(90%);
+}
+.down:hover,
+.down:active{
+    margin-top: 120px;
+    transition: 0.5s;
+}
+.fon2 {
+    width: 100%;
+    padding: 0 0;
+    box-sizing: border-box;
+    background: #000000 url("/imeges/fon2.jpg") no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.border {
+    width: 90%;
+    padding-left: 110px;
+    padding-top: 40px;
+}
+.first {
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+}
+.time {
+    font-size: 18px;
+    line-height: 206.5%;
+    letter-spacing: 0.14em;
+    color: #E5E5E5;
+}
+.worktime {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 150%;
+    padding-left: 35px;
+}
+.days {
+    margin-top: 40px;
+}
+.sun {
+    margin-top: 20px;
+}
+.hours {
+    margin-left: 50px;
+    margin-top: 40px;
+}
+.close {
+    margin-top: 20px; 
+    margin-left: 110px;
+}
+.price {
+    float: right;
+    margin-top: 20px;
+    width: 600px;
+    height: 520px;
+    background: #C4C4C4;
+    color: #000000;
+}
+.price-title{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 40px;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.14em;
+    color: #000000;
+}
+
+.position {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 40px;
+    color: #000000;
+}
+.box {
+    display: inline-flex;
+    float: left;
+    margin-top: -240px;
+}
+.text-box {
+    width: 304px;
+    height: 230px;
+    border: 4px solid #C4C4C4;
+    font-style: italic;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 200%;
+    letter-spacing: 0.15em;
+    transition: 0.3s;
+}
+
+.my-photo2 {
+    object-fit: cover;
+    float: left;
+    padding: 10px;
+    width: 83.08px;
+    height: 83.08px;
+    border-radius: 90px;
+}
+.text{
+    padding-top: 10px ;
+    padding-left: 120px;
+    font-style: italic;
+    font-size: 14px;
+    line-height: 200%;
+    letter-spacing: 0.15em;
+}
+.text2 {
+    float: right;
+}
+.nick {
+    padding-top: 20px;
+    padding-left: 0px;
+    text-decoration: none;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 167.5%;
+    letter-spacing: 0.1em;
+    color: #E5E5E5;  
+}
+footer{
+    width: 100%;
+    height: 50px;   
+}
+@media screen and (max-width: 2600px) {
+    body {
+        width:100%;
+    }
+    .container {
+        width: 100%;
+    }
+    main{
+        width: 80%;
+        margin: 0 auto;
+    }
+    header, 
+    .border {
+        width: 80%;
+        padding-left: 0;
+        margin: 0 auto;
+    }
+    .fon{
+        width: 100%;
+        margin: 0 auto;  
+    }
+    .contacts-box{
+        display: flex;
+        width: 100%;
+    }
+    .contacts{
+        width: 210px;
+    }
+    .address{
+        width: 210px;
+        margin-left: 20px;
+        text-align: right;
+    }
+    .main-text{
+        height: 400px;
+    }
+    .main-text-3{
+        padding: 0;  
+    }
+    .btn{
+        margin: 0;
+    }
+    .about-me{
+        margin-left: 400px;
+    }
+    .fon2 {
+        width: 100%;  
+    }
+    .insta .icon-insta{
+        padding-top: 20px;   
+    }
+    .nick{
+        padding-left: 20px;
+    }
+}
+
+@media screen and (max-width: 1250px) {
+   
+    main{
+        width: 90%;  
+    }
+    header, 
+    .border {
+        width: 90%;
+    }
+    .contacts-box{
+        display: flex;
+        width: 100%;
+    }
+     .fon2{
+        width: 100%;
+        padding-left: 30px;
+    }
+    .about-me{
+        width: 250px;
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 1090px) {
+    main{
+        width: 90%;  
+    }
+    header, 
+    .border {
+        width: 90%;
+    }
+   
+    .logo{
+        width: 150px;
+    }
+    .contacts-box{
+        display: flex;
+        width: 100%;
+    }
+    .contacts{
+        float: right;
+        width: 190px;
+    }
+    .insta, .icon-insta {
+        padding-top: 10px;
+        padding-left: 0;
+    }
+    .tel,
+    .insta, 
+    .address {
+        font-size: 14px;
+    }
+    .address{
+        margin: 0;
+        text-align: left;
+    }
+    .about-me{
+        margin-top: 20px;
+        width: 400px;
+        height: auto;
+    }
+    .price{
+        width: 450px;
+    }
+    
+    .text-box{
+        width:270px ;
+    } 
+    .text{
+         margin-bottom: 0;
+    }   
+}
+@media screen and (max-width: 890px) {
+   
+    main{
+        width: 90%;  
+    }
+    header, 
+    .border {
+        width: 90%;
+        flex-wrap: wrap;
+    }
+  
+    .container2 {
+        margin: 0 auto;
+        justify-content: center;
+    }
+    .logo{
+        width: 110px;
+    }
+    .first-text{
+        font-size: 16px;
+        float: right;
+        margin-right: 20px;
+        margin-left: 60px;
+    }
+    .contacts-box{
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+    .contacts{
+        margin-left: 0;
+        margin-top: 30px;
+    }
+    .tel,
+    .insta, 
+    .address {
+        font-size: 14px;
+    }
+    .address{
+        margin-left: 40px;
+        margin-top: 30px;
+        width: 200px;
+    }
+    .main-text{
+        width: auto;
+        padding: 40px 40px;
+    }
+    .main-text-1{
+        font-size: 18px;
+    }
+    .main-text-3{
+        font-size: 16px;
+        padding: 0;
+        
+        width: 100%;
+    }
+    .main-text-2{
+        padding-top: 10px;
+        font-size: 16px;
+        margin-left: auto; 
+    }
+    .btn{
+        width: 200px;
+        float: none;
+        margin: 0 auto;
+        margin-top: 220px; 
+    }
+    .btn-a{
+        padding: 12px 40px;
+    }
+    .about-me{
+        margin: 0 auto;
+        float: none;
+        width: 420px;
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 10px;
+    }
+    .my-photo{
+        margin-left: 320px;
+    }
+    .about-me-text{
+        margin-top: -70px;
+    }
+    .name{
+        margin-left: 220px;
+    }
+    .down,
+    .to-down,
+    .arow{
+        display: none;
+    }
+    .time{
+        margin: 0 auto;
+    }
+    .price{
+        width: 100%; 
+    }
+    .box,
+    .text-box{
+        width: 420px ;
+        height: auto;
+        float: none;
+        margin: 0 auto;
+    }
+    .box{
+        display: flex;
+        margin-top: 10px;
+    }
+        
+}
+
+@media screen and (max-width: 530px) {
+    body {
+        width: 100%;
+    }
+    main{
+        width: 90%;  
+    }
+    .container {
+        width: 100%;
+        background-attachment: scroll;
+    }
+    header {
+        width: 320px;
+    }
+    
+    .border{
+        width: 100%;
+        margin: 0;
+        padding-left: 0px;
+    }
+    .fon{
+        width: 100%;
+        padding-left: 0;
+    }
+    .fon2{
+        width: 100%;
+        padding: 0;
+    }
+    .logo{
+        width: 120px;
+    }
+    .first-text{
+        font-size: 16px;
+        float: right;
+        text-align:center;
+        margin-right: 0;
+        margin-left: 20px;
+    }
+    .contacts-box{
+        display: block;
+    }
+    .contacts,
+    .address{
+        width: 210px;
+    }
+    .tel,
+    .insta, 
+    .address {
+        font-size: 16px;
+        padding: 0 0;
+
+    }
+    .icon-insta,
+     .icon-tel, 
+     .icon-add{
+        width: 20px;
+        height: 20px;
+        padding-right: 10px;
+    }
+    .contacts{
+        display: flex;
+        flex-wrap: wrap;
+        float: none;
+        margin: 40px auto 20px auto; 
+    }
+    .address{
+        display: flex;
+        margin: 0px auto 10px auto;
+    }
+    .address-text {
+        width: 100px;
+    }
+    .main-text{
+        width: auto;
+        height: auto;
+        padding: 20px 20px;
+        margin-top: 10px;
+        padding-bottom: 30px;
+    }
+    .main-text-1{
+        font-size: 24px;
+    }
+    .main-text-2,
+    .main-text-3 {
+        font-size: 18px;
+    }
+    .main-text-2 {
+        float: right;
+        margin-right: 20px;
+    }
+    .main-text-3 {
+        padding-top: 0;
+        padding-bottom: 20px;
+    }
+    .btn-a{
+        padding: 12px 30px;
+        font-size: 24px;
+    }
+    .btn {
+        width: 220px;
+       padding-bottom: 12px;
+       margin-top: 390px; 
+    }
+    .about-me {
+       justify-content: flex-end;
+        margin: 0 auto;
+        margin-top: 40px;
+        float: none;
+        width: 98%;
+        height: auto;
+        line-height: 25px;  
+    }
+    .about-me-text{
+        width: 90%;
+       padding-top: 30px;  
+    }
+    .name{
+        margin: 0;
+        margin-bottom: 25px;
+    }
+    .down,
+    .to-down,
+    .arow {
+        display: none;
+    }
+    .first {
+        margin: 0 auto;
+    }
+    .time{
+        margin: 0 auto;
+    }
+    .days,
+    .sun{
+        margin: 0;
+        padding-bottom: 10px;
+    }
+    .price{
+        width: 90%;
+        margin: 40px auto;
+    }
+    .price-1 {
+        padding-top: 0;
+    }
+    .box {
+        width: 88%;
+        height: auto;
+        float: none;
+        display: block;
+        margin: 0 auto;
+        margin-top: 10px; 
+    }
+    .text-box {
+        padding-bottom:20px;
+        float: none;
+        width: 100%;
+    }
+   
+}
+@media screen and (max-width: 400px) {
+    .position {
+        padding: 0 20px;
+    }
+    .price-title{
+        padding: 20px;
+    }
+    .popup__links{
+        flex-direction: column;
+    }
+    .popup__links__wrap{
+        margin: 10px 0;
+    }
+    .popup__text{
+        margin: 0 auto;
+    }
+}
+
